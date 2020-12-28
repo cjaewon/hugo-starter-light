@@ -1,3 +1,4 @@
+# === NODE ===
 # Logs
 logs
 *.log
@@ -102,3 +103,15 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+# === HUGO ===
+/public/
+/resources/_gen/
+
+hugo.exe
+hugo.linux
+hugo.darwin
+
+# === MacOS ===
+.DS_Store
